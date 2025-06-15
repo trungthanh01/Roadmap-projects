@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --text-color: #212529;
+    --font-family: 'Arial', sans-serif;
+    --container-width: 1140px;
+    --border-radius: 5px;
+    --box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 1em;
+    line-height: 1.8rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+   
+    
+
+}
+.grid {
+    width: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
